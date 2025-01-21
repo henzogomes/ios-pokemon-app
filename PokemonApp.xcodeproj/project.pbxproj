@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7654841D2D4039B4007F21EA /* OggDecoder in Frameworks */ = {isa = PBXBuildFile; productRef = 7654841C2D4039B4007F21EA /* OggDecoder */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		765483FC2D3FD5DE007F21EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7654841D2D4039B4007F21EA /* OggDecoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = PokemonApp;
 			packageProductDependencies = (
+				7654841C2D4039B4007F21EA /* OggDecoder */,
 			);
 			productName = PokemonApp;
 			productReference = 765483EB2D3FD5DC007F21EA /* PokemonApp.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 765483E22D3FD5DC007F21EA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7654841B2D403913007F21EA /* XCRemoteSwiftPackageReference "OggDecoder" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 765483EC2D3FD5DC007F21EA /* Products */;
 			projectDirPath = "";
@@ -552,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7654841B2D403913007F21EA /* XCRemoteSwiftPackageReference "OggDecoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/arkasas/OggDecoder";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7654841C2D4039B4007F21EA /* OggDecoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7654841B2D403913007F21EA /* XCRemoteSwiftPackageReference "OggDecoder" */;
+			productName = OggDecoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 765483E32D3FD5DC007F21EA /* Project object */;
 }
