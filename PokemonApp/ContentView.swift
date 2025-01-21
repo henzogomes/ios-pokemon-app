@@ -170,6 +170,7 @@ struct ContentView: View {
       if !pokemonImageURL.isEmpty {
         AsyncImage(url: URL(string: pokemonImageURL)) { image in
           image
+            .interpolation(.none)
             .resizable()
             .scaledToFit()
             .frame(width: 200, height: 200)
